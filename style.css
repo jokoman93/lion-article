@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.titleimage {
+    height: 90vh;
+    width: 100%;
+}
+
+h1 {
+    width: 70vw;
+    font-size: 100px;
+    color: rgb(255, 254, 254);
+    position: absolute;
+    bottom: 400px;
+    margin-left: 70px;
+    margin-right: 100px;    
+}
+
+.title-phrase {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15em;
+    margin-bottom: 0;
+}
+
+.myanimalexibition {
+    font-size: 30px;
+    color: rgb(136, 135, 135);
+    padding-left: 10em;
+    margin-top: 0.2em;
+}
+
+.by-header {
+    font-size: 20px;
+    padding-left: 15em;
+}
+
+.publish-date {
+    font-size: 30px;
+    color: rgb(136, 135, 135);
+}
+
+.content {
+    margin-left: 18.7em;
+    margin-right: 10em;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-text {
+    font-size: 28px;
+    text-align: justify;
+}
+
+.general {
+    padding-right: 50px;
+}
+
+.general-images1 {
+    width: 500px;
+    height: 320px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    float: right;
+}
+
+.general-images2 {
+    width: 500px;
+    height: 320px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    .title-container {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        margin-bottom: 0;
+    }
+
+    .titleimage {
+        width: 100%;
+        height: 50%;
+        z-index: -1;
+    }
+
+    h1 {
+        font-size: 18px;
+        align-content: left;
+        margin-bottom: 140px;
+        right: 1px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 3px;
+    }
+
+    p {
+        font-size: 15px;
+        margin: 3px;
+    }
+
+    .general-images1 {
+        width: 100vw;
+    }
+
+    .general-images2 {
+        width: 100vw;
+    }
+
+    .title-phrase {
+        display: flex;
+        font-size: 17px;
+        margin-top: 2px;
+        padding-left: 0;
+    }
+
+    .myanimalexibition {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .publish-date {
+        font-size: 15px;
+    }
+
+    .by-header {
+        padding: 0;
+    }
+
+    .content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .general.content-text {
+        padding: 0;
+    }
+
+    .content-text {
+        font-size: 15px;
+    }
+
+    }
